@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(45deg, #ff6f61, #ffcccb);
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #ff6f61;
+}
+
+.timeline {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.timeline-item {
+    background-color: #ffcccb;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.timeline-item:hover {
+    background-color: #ff6f61;
+    color: white;
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-slider {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #ffe4e1;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.quote-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #ff6f61;
+    margin: 20px;
+}
+
+#memory-wall {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sticky-notes {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffcccb;
+}
+
+footer {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
