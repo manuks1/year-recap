@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couple's Year in Review: 2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <h1>A Year in Our Love Story: 2024 Recap</h1>
+        <p>Join us as we relive the most special moments of 2024 together!</p>
+    </div>
+</header>
+
+<section id="timeline">
+    <h2>Our Year in Review</h2>
+    <div class="timeline">
+        <div class="timeline-item" onclick="showMonth('January')">
+            <h3>January</h3>
+            <p>New Year, New Adventures</p>
+        </div>
+        <!-- Repeat for other months -->
+    </div>
+</section>
+
+<section id="monthly-highlights">
+    <h2>Monthly Highlights</h2>
+    <div class="photo-gallery">
+        <div class="photo" onclick="openPhoto('January')">
+            <img src="images/january.jpg" alt="January">
+            <p>January</p>
+        </div>
+        <!-- Repeat for other months -->
+    </div>
+</section>
+
+<section id="milestones">
+    <h2>Milestones & Special Moments</h2>
+    <div class="card-slider">
+        <div class="card" onclick="showMilestone('Vacation')">
+            <h4>Our First Vacation Together</h4>
+        </div>
+        <!-- Repeat for other milestones -->
+    </div>
+</section>
+
+<section id="quotes">
+    <h2>Our Favorite Quotes of the Year</h2>
+    <div class="quote-carousel">
+        <p class="quote">"Your smile is my favorite thing about this year" – [Name]</p>
+        <!-- Add more quotes -->
+    </div>
+</section>
+
+<section id="memory-wall">
+    <h2>Build Our Memory Wall</h2>
+    <div class="sticky-notes">
+        <textarea placeholder="What was your favorite memory with us this year?" id="noteInput"></textarea>
+        <button onclick="addStickyNote()">Add Memory</button>
+    </div>
+    <div id="wall"></div>
+</section>
+
+<section id="video">
+    <h2>Love Through the Year - Video Compilation</h2>
+    <video controls>
+        <source src="videos/year-in-review.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
+
+<section id="next-year">
+    <h2>Looking Forward to Next Year</h2>
+    <p>What should we do next year? Tell us your suggestions!</p>
+    <input type="text" id="nextYearInput" placeholder="Write your suggestion...">
+    <button onclick="submitSuggestion()">Submit</button>
+</section>
+
+<footer>
+    <p>Thank you for being part of our story in 2024!</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
