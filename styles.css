@@ -138,3 +138,50 @@ input[type="text"] {
     border-radius: 5px;
     border: 1px solid #ddd;
 }
+
+.text-box {
+            max-width: 600px;
+            padding: 30px;
+            background: #fff;
+            border-radius: 16px;
+            border: 3px solid transparent;
+            background-clip: padding-box;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .text-box::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, #d4af37, #b8860b, #ffd700);
+            z-index: -1;
+            transform: rotate(25deg);
+        }
+        .text-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+        }
+        .text-box h2 {
+            font-family: 'Cinzel', serif;
+            font-size: 2rem;
+            color: #b8860b;
+            margin: 0 0 20px;
+        }
+        .text-box p {
+            font-size: 1.2rem;
+            color: #4b3832;
+            line-height: 1.8;
+            font-style: italic;
+        }
+        .text-box .quote {
+            font-size: 3rem;
+            font-family: 'Cinzel', serif;
+            color: #d4af37;
+            margin-bottom: -20px;
+        }
