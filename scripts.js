@@ -6,7 +6,14 @@ function showMonth(month) {
 
 // Photo Gallery Click Action
 function openPhoto(month) {
-    alert("Showing photos for " + month);
+    if(month === 'Pratibha') {
+        alert("Looks very calm, but totally opposite. But very lovely and beautiful!");
+    } else if (month === 'Manu') {
+        alert("Looks very angry, but totally opposite. Except few times");
+    } else {
+        alert("Together we are fire-ice, key-lock, pieces of puzzle");
+    }
+    
     // Add functionality to open a lightbox with photos for the selected month
 }
 
