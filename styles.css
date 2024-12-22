@@ -159,7 +159,7 @@ input[type="text"] {
             left: -50%;
             width: 200%;
             height: 200%;
-            background: linear-gradient(45deg, #d4af37, #b8860b, #ffd700);
+            background: linear-gradient(45deg, #ff6f61, #ffcccb);
             z-index: -1;
             transform: rotate(25deg);
         }
@@ -170,18 +170,18 @@ input[type="text"] {
         .text-box h2 {
             font-family: 'Cinzel', serif;
             font-size: 2rem;
-            color: #b8860b;
+            color: #ffcccb;
             margin: 0 0 20px;
         }
         .text-box p {
             font-size: 1.2rem;
-            color: #4b3832;
+            color: #ff6f61;
             line-height: 1.8;
             font-style: italic;
         }
         .text-box .quote {
             font-size: 3rem;
             font-family: 'Cinzel', serif;
-            color: #d4af37;
+            color: #ff6f61;
             margin-bottom: -20px;
         }
